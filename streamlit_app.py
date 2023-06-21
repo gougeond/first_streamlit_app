@@ -51,5 +51,5 @@ if streamlit.button('Get Fruit load list'):
     my_data_rows = get_fruit_load_list()
     streamlit.dataframe(my_data_rows)
 
-streamlit.stop
+streamlit.stop()
 my_cur.execute("insert into fruit_load_list values ('from rivery')")
