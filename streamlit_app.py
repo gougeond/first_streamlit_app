@@ -2,7 +2,7 @@ import streamlit
 import pandas
 import requests
 import snowflake.connector
-from urllib.error import URLError
+import URLError from urllib.error 
 
 #Fonctions 
 def get_fruityvice_data(this_fruit_choice):
